@@ -4,13 +4,18 @@ description: A new Flutter application.
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.2.2 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
 
   cupertino_icons: ^0.1.2
+  geolocator: ^7.0.1
+  http: ^0.12.0+2
+  flutter_spinkit: ^3.1.0
+  time_formatter: ^1.0.0
+  weather_icons: ^2.0.2
 
 dev_dependencies:
   flutter_test:
@@ -27,3 +32,9 @@ flutter:
     fonts:
     - asset: fonts/SpartanMB-Black.otf
       weight: 900
+  - family: Nunito Extra Light
+    fonts:
+      - asset: fonts/Nunito-ExtraLight.ttf
+  - family: Nunito Light
+    fonts:
+      - asset: fonts/Nunito-Light.ttf
